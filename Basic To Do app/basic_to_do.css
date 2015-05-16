@@ -1,0 +1,33 @@
+h2 {
+    font-family:Helvetica;
+    font-size:40px;
+}
+
+form {
+    display: inline-flex;
+}
+
+#button{
+    display: inline-block;
+    height:20px;
+    width:60px;
+    background-color:#3333ff;
+    font-family:helvetica;
+    font-weight:bold;
+    color:#ffffff;
+    border-radius: 10px;
+    text-align:center;
+    margin-top:5px;
+}
+
+.list {
+    font-family:garamond;
+    color: #000000;
+    font-size: 20px;
+}
+
+.strikethrough {
+	font-family:garamond;
+    color: #999999;
+    text-decoration: line-through;
+}
