@@ -16,6 +16,10 @@ $(document).ready(function(){
     });
   
     $(document).on("click", ".item", function() {
-    $(this).addClass("strikethrough")
+    	$(this).addClass("strikethrough");
+    });
+    
+    $(document).on("click", ".strikethrough", function() {
+    	$(this).remove();
     });
 });
